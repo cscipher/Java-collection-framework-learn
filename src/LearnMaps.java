@@ -15,6 +15,7 @@ public class LearnMaps {
         student.put(123,"yogii");
         System.out.println(student);
 
+
         // Map iterations
         for(Map.Entry<Integer, String> e: student.entrySet()){
             System.out.println(e.getKey());
